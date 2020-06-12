@@ -1,0 +1,34 @@
+{
+    "name": "mastercard/disbursements",
+    "description": "This is the api for disbursements",
+    "version": "1.0.7",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "MasterCard Worldwide",
+            "email": "ApiSupport@mastercard.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/muhamed-didovic/sdk-core-php"
+        }
+    ],
+    "require": {
+        "mastercard/mastercard-api-core": "dev-develop"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "MasterCard": ""
+        }
+    },
+    "archive": {
+        "exclude": ["/result", "/*.p12", ".gitignore", "allfiles.tar"]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
